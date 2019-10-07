@@ -24,9 +24,11 @@ video {
 }
 
 .overlay {
+  margin-top: 350px;
   text-align: center;
   z-index: 3;
   width: 800px;
+  text-shadow: 1px 1px #555555;
 }
 
 .button {
@@ -34,10 +36,16 @@ video {
   background-color: #5D6F3F;
   border: solid 1px #4f662e;
   border-radius: 10px;
+  margin-top: 50px;
   padding-top: 15px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 15px;
+}
+.button:hover {
+  -webkit-box-shadow: 0px 0px 15px -4px #5a5a5a;
+  -moz-box-shadow: 0px 0px 15px -4px #5a5a5a;
+  box-shadow: 0px 0px 15px -4px #5a5a5a;
 }
 .button a {
   text-decoration: none;
