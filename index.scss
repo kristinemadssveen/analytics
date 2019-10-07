@@ -11,40 +11,28 @@ body {
 
 main {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-main video {
+video {
     width: 100vw;
     z-index: 0;
+    position: fixed;
 }
 
 .overlay {
     
     text-align: center;
-    position: absolute;
-    left: 100px;
-    top: 100px;
     z-index: 3;
-    margin-top: 200px;
-    margin-left: 170px;
+    width: 800px;
     
-    h1,
-    p {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 0px;
-    }
 }
 
 .button {
     z-index: 3;
-    position: absolute;
-    left: 100px;
-    top: 100px; 
-    display: flex;
-    justify-content: center;
-    margin-top: 450px;
-    margin-left: 488px;
     background-color: #5D6F3F;
     border: solid 1px rgb(79, 102, 46);
     padding-top: 10px;
