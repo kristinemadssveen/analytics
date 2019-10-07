@@ -50,5 +50,9 @@ main video {
   padding-right: 40px;
   padding-bottom: 10px;
 }
+.button a {
+  text-decoration: none;
+  color: white;
+}
 
 /*# sourceMappingURL=index.css.map */
