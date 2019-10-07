@@ -12,11 +12,12 @@ body {
 main {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-main video {
+video {
   width: 100vw;
   z-index: 0;
   position: fixed;
@@ -30,7 +31,6 @@ main video {
 
 .button {
   z-index: 3;
-  margin-top: 450px;
   background-color: #5D6F3F;
   border: solid 1px #4f662e;
   border-radius: 10px;
