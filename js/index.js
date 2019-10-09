@@ -26,6 +26,9 @@ vid.ontimeupdate = () => {
         vid.style.transition = "3s ease"
         vid.style.opacity = 0
         txt.style.color = "black"
+        
+        // object.style.textShadow="0px 0px 0px"
+        
     }
 };
 
