@@ -2,36 +2,35 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Libre Franklin", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   box-sizing: border-box;
   overflow: hidden;
   color: white;
-  font-size: 17px;
-}
+  font-size: 17px; }
 
 main {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 video {
   width: 100vw;
   z-index: 0;
-  position: fixed;
-}
+  position: fixed; }
 
-.overlay {
+#overlay, #button {
+  opacity: 0; }
+
+#overlay {
   margin-top: 350px;
   text-align: center;
   z-index: 3;
   width: 800px;
-  text-shadow: 1px 1px #555555;
-}
+  text-shadow: 1px 1px #555555; }
 
-.button {
+#button {
   z-index: 3;
   background-color: #5D6F3F;
   border: solid 1px #4f662e;
@@ -40,17 +39,12 @@ video {
   padding-top: 15px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 15px;
-}
-.button:hover {
-  -webkit-box-shadow: 0px 0px 15px -4px #5a5a5a;
-  -moz-box-shadow: 0px 0px 15px -4px #5a5a5a;
-  box-shadow: 0px 0px 15px -4px #5a5a5a;
-}
-.button a {
-  text-decoration: none;
-  color: white;
-  font-size: 27px;
-}
-
-/*# sourceMappingURL=index.css.map */
+  padding-bottom: 15px; }
+  #button:hover {
+    -webkit-box-shadow: 0px 0px 15px -4px #5a5a5a;
+    -moz-box-shadow: 0px 0px 15px -4px #5a5a5a;
+    box-shadow: 0px 0px 15px -4px #5a5a5a; }
+  #button a {
+    text-decoration: none;
+    color: white;
+    font-size: 27px; }
