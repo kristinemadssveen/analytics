@@ -11,7 +11,7 @@ vid.onloadstart = function() {
 vid.oncanplay = function() {
     console.log("Can start playing video")
     vid.play()
-    txt.style.transition = "3s ease"
+    txt.style.transition = "5s ease"
     txt.style.opacity = 1
     txt.addEventListener('transitionend', () => {
         button.style.transition = "3s ease"
@@ -19,12 +19,14 @@ vid.oncanplay = function() {
     })
 }
 
+
+
 vid.ontimeupdate = () => {
     console.log(vid.currentTime)
-    if(video.currentTime >= 6){
+    if(video.currentTime >= 5){
         vid.pause()
         vid.style.transition = "3s ease"
-        vid.style.opacity = 0
+        vid.style.opacity = 0.5
         txt.style.color = "black"
         
         // object.style.textShadow="0px 0px 0px"

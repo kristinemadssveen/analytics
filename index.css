@@ -32,7 +32,11 @@ video {
   text-align: center;
   z-index: 3;
   width: 800px;
-  text-shadow: 1px 1px #555555;
+  
+}
+#overlay h1{
+  text-shadow : 1px 1px gray;
+  color: #5D6F3F;
 }
 
 #button {
